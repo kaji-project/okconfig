@@ -11,8 +11,9 @@ git checkout okconfig-${version}-${release}
 
 cp -r ../../debian .
 
-
 python setup.py build
+okconfig init
+okconfig verify
 rm -rf build/
 cd ..
 
@@ -21,12 +22,8 @@ cd okconfig-${version}
 
 dpkg-buildpackage -tc -us -uc
 
-
-exit 1
 # copy patches
-#cp debian/patches/*.patch ../../../opensusebuildservice/home\:sfl-monitoring/shinken
-# Copy spec file
-cp ../okconfig-${version}.tar.gz okconfig.spec ../../
+cp debian/patches/*.patch ../../
 # copy deb files
 cd ..
 cp okconfig*.changes okconfig*.dsc okconfig*.tar.xz okconfig*.tar.gz ../

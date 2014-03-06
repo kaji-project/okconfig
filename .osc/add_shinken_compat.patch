@@ -1,0 +1,36 @@
+diff --git a/etc/okconfig.conf b/etc/okconfig.conf
+index d9d0560..81de9f1 100644
+--- a/etc/okconfig.conf
++++ b/etc/okconfig.conf
+@@ -1,5 +1,5 @@
+ # nagios_config - This is the location to your Nagios configuration file
+-nagios_config		/etc/nagios/nagios.cfg
++nagios_config              /etc/shinken/shinken.cfg
+ 
+ # template_directory - This is where okconfig configuration templates are stored
+ # This directory should be included via cfg_dir in your nagios configuration file
+@@ -8,7 +8,7 @@ template_directory	/usr/share/okconfig/templates
+ 
+ # destination_directory - This is where okconfig will write new configuration files
+ # This director should be included via cfg_dir in your nagios configuration file
+-destination_directory	/etc/nagios/okconfig/
++destination_directory              /etc/shinken/okconfig/
+ 
+ 
+ # examples_directory - OKconfig will use these files to generate new hosts and templates
+@@ -16,7 +16,7 @@ examples_directory	/usr/share/okconfig/examples
+ 
+ 
+ # examples_directory_local - Use this directory to put in your own local overwrites of templates
+-examples_directory_local	/etc/nagios/okconfig/examples
++destination_directory_local              /etc/shinken/okconfig/
+ 
+ 
+ # install_nrpe_script - This is location to script that is used
+diff --git a/etc/profile.d/okconfig.sh b/etc/profile.d/okconfig.sh
+new file mode 100644
+index 0000000..4807bc6
+--- /dev/null
++++ b/etc/profile.d/okconfig.sh
+@@ -0,0 +1 @@
++PYTHONPATH=$PYTHONPATH:/opt/okconfig

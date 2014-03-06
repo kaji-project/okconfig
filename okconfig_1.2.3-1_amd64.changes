@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 25 Feb 2014 23:49:45 -0500
+Source: okconfig
+Binary: okconfig
+Architecture: source all
+Version: 1.2.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Thibault Cohen <thibault.cohen@savoirfairelinux.com
+Changed-By: Thibault Cohen <thibault.cohen@savoirfairelinux.com>
+Description: 
+ okconfig   - okconfig a robust template mechanism for Nagios configuration
+Changes: 
+ okconfig (1.2.3-1) unstable; urgency=medium
+ .
+   * Initial packaging
+Checksums-Sha1: 
+ c4fbbe465a4194b94b8457d070b561ae3f267e57 855 okconfig_1.2.3-1.dsc
+ 1c9ea00c2ab2c64dbd22fe9cb5ba63e399b47e21 34067222 okconfig_1.2.3.orig.tar.gz
+ 12297754776864b0422efb181e17427f2fa7403a 1972 okconfig_1.2.3-1.debian.tar.xz
+ 2af02a166952fcd952bfebc0e7d010ef6c8e853e 54624 okconfig_1.2.3-1_all.deb
+Checksums-Sha256: 
+ 90aef4b4c234698b02d62566dff1cfb2b4b475b917c2def5f906d164ab162458 855 okconfig_1.2.3-1.dsc
+ 2435c7f89ebf5c628f2cc7470076a5de2e09b445dae37884ed34712008242ab5 34067222 okconfig_1.2.3.orig.tar.gz
+ 5800d1159473204238553ccc0ddbae3165edd3f78d457ad011ef9b07e7fc051c 1972 okconfig_1.2.3-1.debian.tar.xz
+ 5655f1a6854965b7515da1d97c7d622782f5dc59d4fa5c413c1e85f17ee3867c 54624 okconfig_1.2.3-1_all.deb
+Files: 
+ 1ff94d3a931bd508a93d560aec9a2653 855 python optional okconfig_1.2.3-1.dsc
+ 99e967fb2cb8dc5d4783156c314c79fd 34067222 python optional okconfig_1.2.3.orig.tar.gz
+ 0af4e1ada33c9148337e578144a7ff35 1972 python optional okconfig_1.2.3-1.debian.tar.xz
+ 6d6a9b35097b936c8d605481b3101fea 54624 python optional okconfig_1.2.3-1_all.deb
