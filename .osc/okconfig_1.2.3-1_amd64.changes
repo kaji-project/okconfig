@@ -15,17 +15,17 @@ Changes:
  .
    * Initial packaging
 Checksums-Sha1: 
- c4fbbe465a4194b94b8457d070b561ae3f267e57 855 okconfig_1.2.3-1.dsc
- 1c9ea00c2ab2c64dbd22fe9cb5ba63e399b47e21 34067222 okconfig_1.2.3.orig.tar.gz
- 12297754776864b0422efb181e17427f2fa7403a 1972 okconfig_1.2.3-1.debian.tar.xz
- 2af02a166952fcd952bfebc0e7d010ef6c8e853e 54624 okconfig_1.2.3-1_all.deb
+ 44c25c56c4947f834ea855accaa166a29cc3ebdf 855 okconfig_1.2.3-1.dsc
+ 9378a937e9699eb937a53afd075b4fcef4e651b3 34067431 okconfig_1.2.3.orig.tar.gz
+ 9a53757a055655b534a212b48f729d7ad4c4d8e3 2404 okconfig_1.2.3-1.debian.tar.xz
+ cbd60c115ea3dda61146fd5d71f7129125fa9b85 55098 okconfig_1.2.3-1_all.deb
 Checksums-Sha256: 
- 90aef4b4c234698b02d62566dff1cfb2b4b475b917c2def5f906d164ab162458 855 okconfig_1.2.3-1.dsc
- 2435c7f89ebf5c628f2cc7470076a5de2e09b445dae37884ed34712008242ab5 34067222 okconfig_1.2.3.orig.tar.gz
- 5800d1159473204238553ccc0ddbae3165edd3f78d457ad011ef9b07e7fc051c 1972 okconfig_1.2.3-1.debian.tar.xz
- 5655f1a6854965b7515da1d97c7d622782f5dc59d4fa5c413c1e85f17ee3867c 54624 okconfig_1.2.3-1_all.deb
+ fd6f546af0d2e56f23aa526fdb7797f32b3da42e1f328a2df76da3a9e95bebd1 855 okconfig_1.2.3-1.dsc
+ 112b0784fe578e42367e8afa354a6cfda34016a6443871c54f12488b6b5af5d2 34067431 okconfig_1.2.3.orig.tar.gz
+ 56487129b1247cdb294e7d2c1a4df2219a536e79f5082faacb667af9fc5504f8 2404 okconfig_1.2.3-1.debian.tar.xz
+ 657a1477212716c609775cd3ffca8059fddc63979487820020aff392a96b82a6 55098 okconfig_1.2.3-1_all.deb
 Files: 
- 1ff94d3a931bd508a93d560aec9a2653 855 python optional okconfig_1.2.3-1.dsc
- 99e967fb2cb8dc5d4783156c314c79fd 34067222 python optional okconfig_1.2.3.orig.tar.gz
- 0af4e1ada33c9148337e578144a7ff35 1972 python optional okconfig_1.2.3-1.debian.tar.xz
- 6d6a9b35097b936c8d605481b3101fea 54624 python optional okconfig_1.2.3-1_all.deb
+ f2611f22dc4c21ce53cc8e1897af2481 855 python optional okconfig_1.2.3-1.dsc
+ 69d7bee53ae526dcd172fe6a6fc1dfcd 34067431 python optional okconfig_1.2.3.orig.tar.gz
+ 6fb94cb21255516c68fe1d9a0e98cb14 2404 python optional okconfig_1.2.3-1.debian.tar.xz
+ 1d5566e471718d8ec1c5fd3e47cf77e8 55098 python optional okconfig_1.2.3-1_all.deb

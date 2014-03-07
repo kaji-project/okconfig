@@ -1,9 +1,9 @@
-<directory name="okconfig" rev="6" srcmd5="19e5ce2d3eb175087dabb7a9685e3330" vrev="6">
+<directory name="okconfig" rev="7" srcmd5="684ef9bad70c82cfba16d36ccde43c3b" vrev="7">
   <entry md5="80694ea232bd43e7a9d60980837b4bec" mtime="1394070770" name="add_shinken_compat.patch" size="1477" />
   <entry md5="ae67e57d5631589898b97f96f05f5443" mtime="1394070770" name="build_package.sh" size="578" />
   <entry md5="a684c975c15bee55f9c1b29c0d11ba74" mtime="1394074469" name="okconfig.spec" size="12654" />
-  <entry md5="0af4e1ada33c9148337e578144a7ff35" mtime="1394070771" name="okconfig_1.2.3-1.debian.tar.xz" size="1972" />
-  <entry md5="1ff94d3a931bd508a93d560aec9a2653" mtime="1394070772" name="okconfig_1.2.3-1.dsc" size="855" />
-  <entry md5="a7a09ddcb1b52492af0e9adcf82596ca" mtime="1394070772" name="okconfig_1.2.3-1_amd64.changes" size="1525" />
-  <entry md5="99e967fb2cb8dc5d4783156c314c79fd" mtime="1394070800" name="okconfig_1.2.3.orig.tar.gz" size="34067222" />
+  <entry md5="6fb94cb21255516c68fe1d9a0e98cb14" mtime="1394172288" name="okconfig_1.2.3-1.debian.tar.xz" size="2404" />
+  <entry md5="f2611f22dc4c21ce53cc8e1897af2481" mtime="1394172288" name="okconfig_1.2.3-1.dsc" size="855" />
+  <entry md5="8f06c3e9bdb463289ea50d2df7aff9b8" mtime="1394172289" name="okconfig_1.2.3-1_amd64.changes" size="1525" />
+  <entry md5="69d7bee53ae526dcd172fe6a6fc1dfcd" mtime="1394172318" name="okconfig_1.2.3.orig.tar.gz" size="34067431" />
 </directory>

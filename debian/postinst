@@ -1,0 +1,2 @@
+chown -R shinken:shinken /etc/shinken/okconfig
+service apache2 restart || echo "Failed to reload apache. You have to reload apache to update its configuration"
